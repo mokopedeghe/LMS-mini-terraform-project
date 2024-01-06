@@ -1,0 +1,31 @@
+AWS user profile
+
+access_key = "*************************************"
+secret_key = "**************************************"
+default region name: "us-east-1"
+default output format: json
+
+
+
+
+
+ terraform init
+ echo $AWS_PROFILE
+ set AWS_PROFILE=aws_terraform_user
+ echo $AWS_PROFILE
+ aws --version
+ aws configure lsit
+ aws list-profiles
+ aws s3 ls --profile aws_terraform_user
+ set AWS_PROFILE=aws_terraform_user
+
+
+ aws configure --profile aws_terraform_user
+  
+access_key = "*************************************"
+secret_key = "**************************************"
+default region name: "us-east-1"
+default output format: json
+
+
+
